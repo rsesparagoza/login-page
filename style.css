@@ -1,0 +1,41 @@
+nav {
+    background-color: #60A05B;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: #C9DFC8;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px
+}
+
+nav li a:hover {
+    color: #223920;
+    text-decoration: none;
+}
+
+.avatar-ctn {
+    background-color: #BEED76;
+    text-align: center;
+}
+
+.avatar {
+    width: 40%;
+    border-bottom: 5px solid #BEED76;
+    border-top: 5px solid #BEED76;
+}
+
